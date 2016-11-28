@@ -1,0 +1,172 @@
+* { box-sizing: border-box; }
+body {
+  text-align: justify;
+  width: 100%;
+  font-family: "rancho";
+  background-image: url(Achtergrond.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  clear: both;
+}
+
+header {
+  font-family: "permanent marker";
+  text-align: center;
+}
+
+nav {
+  word-spacing: 2em;
+  border: 5px;
+  border-radius: 5px;
+  border-style: groove;
+  border-color: magenta;
+  padding: 10px;
+  width: 100%;
+  margin: 0%;
+  font-family: Rancho;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+nav a {
+  border-radius: 5px;
+  border: 1px groove magenta;
+  padding: 3px;
+  word-spacing: normal;
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 15em;
+  line-height: 1.5em;
+}
+
+.h1 {
+  text-decoration: none;
+  color: black;
+}
+
+.Sfeerbeeld2, .Sfeerbeeld3, .Sfeerbeeld5 {
+  height: auto;
+  width: 25%;
+  border-radius: 1%;
+  border: 5px magenta groove;
+  margin: 0.5% 0.25% 5% 0.25%;
+  clear: both;
+}
+
+main {
+  clear: both;
+  width: 100%;
+}
+
+.Sfeerbeeld1, .Sfeerbeeld4, .Sfeerbeeld6, .Sfeerbeeld7, .Sfeerbeeld8, .Sfeerbeeld10 {
+  max-width: 100%;
+  border: 2px groove magenta;
+  border-radius: 5px;
+}
+
+.Fotoslinks {
+  float: left;
+  width: 14%;
+}
+
+.Fotosrechts {
+  float: right;
+  width: 14%;
+}
+
+.Sfeerbeeld1, .Sfeerbeeld4 {
+  margin-bottom: 60%;
+}
+
+.Sfeerbeeld7, .Sfeerbeeld8 {
+  margin-bottom: 45%;
+}
+
+.Overhairequipe {
+  margin: -2.5% auto;
+  width: 70%;
+  text-align: justify;
+  font-size: 1.1em;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.2em;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  padding-top: 10px;
+}
+
+h4 {
+  font-size: 1.3em;
+  line-height: 1.2em;
+  padding-top: 10px;
+}
+
+footer {
+  text-align: center;
+  clear: both;
+}
+
+.Sfeerbeeld9 {
+  border-radius: 5px;
+  border: 5px groove magenta;
+  text-align: center;
+  margin: 5% auto;
+}
+
+@media (max-width: 1300px) {
+  h1 {
+    font-size: 10em;
+  }
+}
+
+@media (max-width: 1025px) {
+  .Sfeerbeeld9 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 880px) {
+  h1 {
+    font-size: 7em;
+  }
+  .Fotoslinks, .Fotosrechts {
+    float: left;
+    width: 14%;
+    clear: both;
+  }
+  .Sfeerbeeld1, .Sfeerbeeld4, .Sfeerbeeld6, .Sfeerbeeld7, .Sfeerbeeld8, .Sfeerbeeld10 {
+    margin-bottom: 45%;
+  }
+  .Overhairequipe {
+    width: 84%;
+    padding-left: 7.5%;
+  }
+}
+
+@media (max-width: 630px) {
+  h1 {
+    font-size: 4em;
+  }
+  .Sfeerbeeld1, .Sfeerbeeld4, .Sfeerbeeld6, .Sfeerbeeld7, .Sfeerbeeld8, .Sfeerbeeld10 {
+    display: none;
+  }
+  .Overhairequipe {
+    width: 77%;
+    padding-left: 0%;
+    margin: 0% auto;
+  }
+}
+
+@media (max-width: 530px) {
+  nav a {
+    margin: 0% -5%;
+  }
+}

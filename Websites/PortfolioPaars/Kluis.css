@@ -1,0 +1,197 @@
+body {
+			width: 100%;
+			text-align: center;
+			color: mediumslateblue;
+			font-family: 'Shadows Into Light Two', cursive;
+			background-color: rgb(255,255,224);
+}
+
+h1 {
+			font-size: 3em;
+			margin: 50px auto 0px auto;
+			letter-spacing: 0.01em;
+}
+
+h2 {
+			font-size: 1.5em;
+			margin: 15px auto 0px auto;
+			letter-spacing: 0.025em;
+}
+
+p {
+			margin: 15px auto 0px auto;
+			letter-spacing: 0.05em;
+}
+
+span {
+			font-size: 1.25em;
+			margin-left: -7.5px;
+}
+
+.rekenmachine {
+		  width: 350px;
+		  height: 585px;
+		  margin: 15px auto;
+		  padding: 10px;
+			text-align: center;
+}
+
+input {
+			display: block;
+			margin: 5px auto;
+			width: 300px;
+			padding: 15px;
+			border-radius: 25px;
+			background-color: lawngreen;
+			color: mediumslateblue;
+			font-family: 'Shadows Into Light Two', cursive;
+			font-size: 3em;
+			border: none;
+}
+
+button {
+		  margin: 10px 5px;
+		  width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			border: none;
+			background-color: lawngreen;
+			color: mediumslateblue;
+			font-family: 'Shadows Into Light Two', cursive;
+			font-size: 3em;
+}
+
+main {
+	text-align: center;
+	margin: 0% auto;
+	width: 75%;
+}
+
+.fotos {
+		  margin: 15px auto;
+			text-align: center;
+}
+
+.kader {
+		  box-sizing: border-box;
+		  width: 24%;
+		  height: 170px;
+		  float: left;
+		  margin-right: 1%;
+		  margin-bottom: 1%;
+		  background-size: cover;
+		  transition: transform 0.75s;
+			text-align: center;
+}
+
+.kader:hover{
+		  transform: scale(2.75);
+}
+
+.kader:nth-child(4), .kader:nth-child(8), .kader:nth-child(12), .kader:nth-child(16) {
+		  margin-right: 0;
+}
+
+.foto1{
+		  background-image: url(foto1.JPG);
+}
+
+.foto2{
+		  background-image: url(foto2.JPG);
+}
+
+.foto3{
+			background-image: url(foto3.JPG);
+}
+
+.foto4{
+			background-image: url(foto4.JPG);
+}
+
+.foto5{
+			background-image: url(foto5.JPG);
+}
+
+.foto7{
+			background-image: url(foto7.JPG);
+}
+
+.foto9{
+			background-image: url(foto9.jpg);
+}
+
+.foto10{
+			background-image: url(foto10.jpg);
+}
+
+.foto11{
+			background-image: url(foto11.jpg);
+}
+
+.foto12{
+			background-image: url(foto12.jpg);
+}
+
+.foto13{
+			background-image: url(foto13.jpg);
+}
+
+.foto14{
+			background-image: url(foto14.jpg);
+}
+
+.foto15{
+			background-image: url(foto15.jpg);
+}
+
+.foto16{
+			background-image: url(foto16.jpg);
+}
+
+.foto17{
+			background-image: url(foto17.jpg);
+}
+
+.foto18{
+			background-image: url(foto18.jpg);
+}
+
+.onzichtbaar {
+			display: none;
+}
+
+@media (max-width: 1375px){
+	.kader {
+			  height: 150px;
+	}
+}
+
+@media (max-width: 1175px){
+	.kader {
+			  height: 130px;
+	}
+}
+
+@media (max-width: 975px){
+	.kader {
+			  height: 110px;
+	}
+}
+
+@media (max-width: 775px){
+	.kader {
+			  height: 90px;
+	}
+}
+
+@media (max-width: 575px){
+	.kader {
+			  height: 70px;
+	}
+}
+
+@media (max-width: 375px){
+	.kader {
+			  height: 50px;
+	}
+}

@@ -1,0 +1,263 @@
+body {
+			background: linear-gradient(to right, rgb(0,255,127) 0%, rgba(0,250,154,0.5) 50%, rgb(0,255,127) 100%);
+			width: 100%;
+			text-align: center;
+			letter-spacing: 1.5px;
+			font-weight: bold;
+			color: black;
+			font-family: 'Shadows Into Light Two', cursive;
+}
+
+button {
+			margin: 200px auto;
+			font-size: 25px;
+			border-radius: 10px;
+			color: black;
+			font-family: 'Shadows Into Light Two', cursive;
+			background: linear-gradient(to right, deeppink 0%, hotpink 50%, deeppink 100%);
+			border: 3px solid deeppink;
+}
+
+main {
+			display: none;
+}
+
+#niethome button {
+			display: none;
+}
+
+#niethome main {
+			display: block;
+}
+
+h1 {
+			font-size: 2.5em;
+			margin: 15px auto 10px auto;
+}
+
+nav {
+			position: fixed;
+		  width: 100%;
+		  top: 100px;
+		  padding: 20px;
+		  padding-left: 0px;
+		  z-index: 20;
+		  word-spacing: 2em;
+		  font-size: 1.1em;
+}
+
+.kadernavigatie {
+		  position: fixed;
+		  width: 100%;
+		  text-align: center;
+		  border: 3px solid deeppink;
+		  border-left: 0px;
+		  border-right: 0px;
+			background: linear-gradient(to right, deeppink 0%, hotpink 50%, deeppink 100%);
+		  top: 100px;
+		  height: 50px;
+		  z-index: 10;
+}
+
+a {
+			color: black;
+			text-decoration: none;
+}
+
+.Eva {
+			box-sizing: border-box;
+			border: 5px solid black;
+			width: 35%;
+			height: 35%;
+			border-radius: 50%;
+			float: left;
+			margin: 100px auto;
+			text-align: center;
+}
+
+#voorstelling {
+			box-sizing: border-box;
+		  width: 80%;
+			margin: 0% auto;
+			text-align: center;
+}
+
+#Eva {
+			width: 100%;
+			height: 100%;
+			border-radius: 50%;
+			float: left;
+			text-align: center;
+}
+
+#voorstelling p {
+			float: right;
+			width: 35%;
+			margin: 20% 20% 0% 0%;
+			text-align: justify;
+			word-spacing: 0.15em;
+			line-height: 1.25em;
+}
+
+h2 {
+			margin: 110px auto -125px auto;
+			font-size: 1.75em;
+			text-decoration: underline;
+			display: block;
+			clear: both;
+}
+
+#werken {
+			box-sizing: border-box;
+		  width: 1200px;
+			margin: 150px auto 25px auto;
+			text-align: center;
+}
+
+.circle {
+		  box-sizing: border-box;
+		  border: 5px solid black;
+		  width: 220px;
+		  height: 220px;
+		  border-radius: 15%;
+		  float: left;
+		  margin-right: 20px;
+		  margin-bottom: 100px;
+			text-align: center;
+}
+
+.circle img {
+			width: auto;
+			height: 210px;
+			border-radius: 12.5%;
+}
+
+.onzichtbaar {
+			display: none;
+}
+
+.zichtbaar {
+			display: block;
+			width: 900px;
+			height: auto;
+			margin: -25px auto;
+			text-align: center;
+}
+
+.circle h2 {
+			margin: 25px auto;
+}
+
+.Evacontact {
+			box-sizing: border-box;
+			border: 5px solid black;
+			width: 350px;
+			height: 350px;
+			border-radius: 50%;
+			float: right;
+			margin: 100px auto;
+			text-align: center;
+}
+
+#voorstellingcontact {
+			box-sizing: border-box;
+		  width: 1000px;
+			margin: 0px auto 25px auto;
+}
+
+#Evacontact {
+			width: 340px;
+			height: 340px;
+			border-radius: 50%;
+			float: right;
+}
+
+#voorstellingcontact p {
+			float: left;
+			width: 700px;
+			margin-top: 150px;
+			text-align: justify;
+			word-spacing: 0.15em;
+			line-height: 1.25em;
+			clear: none;
+}
+
+.insturen {
+		  margin: 150px auto;
+			float: left;
+			text-align: left;
+}
+
+label  {
+		  display: block;
+		  font-size: 1em;
+		  line-height: 1em;
+			margin: 5px auto;
+			margin-top: 15px;
+}
+
+input {
+		  border-radius: 5px;
+			width: 500px;
+		  padding-top: 0.5%;
+		  padding-bottom: 0.5%;
+}
+
+.bericht {
+		  padding-bottom: 150px;
+}
+
+.pictogrammen {
+			clear: both;
+}
+
+.facebook {
+		  display: inline;
+}
+
+.twitter {
+		  display: inline;
+}
+
+.instagram {
+		  display: inline;
+}
+
+.pinterest {
+		  display: inline;
+}
+
+@media (max-width: 710px){
+      h1 {
+          font-size: 1.5em;
+      }
+}
+
+@media (max-width: 680px){
+      .Eva, #Eva {
+          display: none;;
+      }
+			#voorstelling p {
+						float: none;
+						width: 100%;
+						margin-top: 25%;
+			}
+}
+
+@media (max-width: 500px){
+			#voorstelling p {
+						margin-top: 35%;
+			}
+}
+
+@media (max-width: 450px){
+      nav {
+				word-spacing: 1em;
+      }
+}
+
+@media (max-width: 350px){
+      nav {
+				word-spacing: 0.5em;
+      }
+}

@@ -1,0 +1,96 @@
+body {
+  background-image: url(pattern.jpg);
+  width: 100%;
+  font-size: 100%;
+  line-height: 100%;
+  font-family: helvetica;
+}
+
+.kader {
+  background-color: rgba(255,255,255,0.9);
+  width: 800px;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 1.5%;
+  line-height: 1.5em;
+}
+
+header {
+  text-align: right;
+  padding-bottom: 2.5%;
+}
+
+h1 {
+  font-size: 1.9em;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+nav {
+  word-spacing: 1.5em;
+  line-height: 2em;
+}
+
+.zwart {
+  text-decoration: none;
+  color: black;
+}
+
+.zwart:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+.oranje {
+  text-decoration: none;
+  color: darkorange;
+}
+
+.oranje:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+p {
+  padding: 1%;
+}
+
+img {
+  margin: 10px auto 10px auto;
+  display: block;
+}
+
+.blauw {
+  color: cadetblue;
+}
+
+.blauw:hover {
+  color: deepskyblue;
+}
+
+@media (max-width: 880px) {
+  .kader {
+    background-color: rgba(255,255,255,0.9);
+    width: 90%;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+}
+
+@media (max-width: 650px) {
+  img {
+    width: 100%;
+    }
+  header {
+    text-align: left;
+  }
+  .kader {
+    background-color: rgba(255,255,255,0.9);
+    width: 90%;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+}

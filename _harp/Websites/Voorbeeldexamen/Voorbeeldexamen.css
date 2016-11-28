@@ -1,0 +1,146 @@
+body {
+      background-color: dodgerblue;
+      font-family: 'Lucida Console';
+}
+
+.kader {
+      width: 50%;
+      margin: 0 auto;
+      background-color: white;
+      border: 10px blue solid;
+      margin-top: 75px;
+      margin-bottom: 25px;
+}
+
+h1 {
+      background-color: purple;
+      color: white;
+      height: 90px;
+      width: 240px;
+      margin-left: -60px;
+      margin-top: -60px;
+      padding-left: 60px;
+      padding-top: 60px;
+      font-size: 1.1em;
+}
+
+.udas {
+      display: block;
+      font-size: 1.6em;
+      transform: rotate(180deg);
+      margin-right: 165px;
+}
+
+p {
+      float: right;
+      width: 170px;
+      display: block;
+      margin-top: -70px;
+      color: blue;
+}
+
+p:last-child {
+      margin: 0;
+      margin-top: 5%;
+      margin-bottom: 2%;
+}
+
+.kader1, .kader2, .kader3 {
+      width: 85%;
+      padding: 7%;
+      margin-top: 10%;
+      color: white;
+}
+
+.kader1 {
+      margin-left: -15%;
+      display: block;
+      float: left;
+}
+
+.tento1 {
+      background-color: RGBA(255, 0, 0, 0.6);
+      border: 10px red solid;
+}
+
+img {
+      width: 100%;
+}
+
+.kader2 {
+      float: right;
+      margin-right: -15%;
+      transform: rotate(180deg);
+      display: block;
+}
+
+.tento2 {
+      background-color: RGBA(130, 200, 50, 0.6);
+      border: 10px RGB(130, 200, 50) solid;
+}
+
+.kader3 {
+      margin-left: -15%;
+      float: left;
+      display: block;
+      margin-bottom: 10%;
+}
+
+.tento3 {
+      background-color: RGBA(240, 0, 150, 0.6);
+      border: 10px RGB(240, 0, 150) solid;
+}
+
+@media only screen and (max-width: 1200px){
+      .kader {
+            width: 60%;
+      }
+}
+
+@media only screen and (max-width: 900px){
+      .kader {
+            width: 70%;
+      }
+      .kader1, .kader2, .kader3 {
+            width: 85%;
+      }
+}
+
+@media only screen and (max-width: 700px){
+      h1 {
+            height: 110px;
+            width: 240px;
+            margin-top: -30px;
+            margin-left: -30px;
+            padding: 40px 0px 0px 40px;
+      }
+      .udas{
+            margin-right: 165px;
+            display: block;
+      }
+      .kader {
+            width: 85%;
+            margin-top: 5%;
+      }
+      .kader1, .kader2, .kader3 {
+            width: 75%;
+            margin: 0 auto;
+            margin-top: 3%;
+            float: none;
+      }
+}
+
+@media only screen and (max-width: 525px){
+      .udas {
+            margin-left: 50px;
+      }
+      .titeltekst {
+            display: none;
+      }
+}
+
+.clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+}

@@ -1,0 +1,316 @@
+body{
+      background-color: white;
+      font-family: 'Crafty Girls', cursive;
+      background-color: rgba(255,192,203, 0.5);
+}
+#home {
+      color: deeppink;
+}
+.banner {
+      font-size: 1.3em;
+      height: 3em;
+      background-color: rgba(125,186,235, 0.5);
+      margin-left: -1%;
+      padding: 10px;
+      width: 102%;
+      z-index: 1000;
+      position: fixed;
+      top: 0px;
+}
+.banner a {
+      color: white;
+      text-decoration: none;
+      padding-left: 10px;
+      cursor: pointer;
+      transition: 1s;
+      margin-right: 5%;
+}
+.banner a:hover {
+      color:deeppink;
+      text-decoration: none;
+}
+.banner a:focus {
+      color:deeppink;
+      text-decoration: none;
+}
+ul {
+      width: 85%;
+      float: right;
+      margin-right: -42.5%;
+      margin-top: -6%;
+}
+ul li {
+      display: inline;
+      padding-right: 25px;
+      font-weight: bold;
+}
+.logo{
+      height: 6em;
+      width: 10.75%;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      margin-top: -1.25%;
+      margin-left: 1%;
+      transition: 1.5s;
+      cursor: pointer;
+}
+#posts {
+      width: 100%;
+      height: 50%;
+      margin-top: 7.5%;
+      margin-left: 15%;
+}
+.kader {
+      box-sizing: border-box;
+      width: 25em;
+      height: 25em;
+      float: left;
+      margin-right: 2%;
+      background-size: cover;
+      margin-bottom: 2%;
+}
+#f1 {
+      background-image: url(1.jpg);
+      box-sizing: border-box;
+      width: 25em;
+      height: 25em;
+      float: left;
+      margin-right: 2%;
+      background-size: cover;
+      margin-bottom: 2%;
+      border: 1px solid black;
+}
+#f2 {
+      background-image: url(2.jpg);
+      box-sizing: border-box;
+      width: 25em;
+      height: 25em;
+      float: left;
+      margin-right: 2%;
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 2%;
+      border: 1px solid black;
+}
+#f3 {
+      background-image: url(3.jpg);
+      box-sizing: border-box;
+      width: 25em;
+      height: 25em;
+      float: left;
+      margin-right: 2%;
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 2%;
+      border: 1px solid black;
+}
+.kader p {
+      margin-top: 25em;
+      width: 25em;
+}
+p a {
+      text-decoration: underline;
+      color: deeppink;
+      display: inline;
+}
+@media (max-width: 1720px){
+      ul {
+            margin-right: -37.5%;
+            margin-top: -6.5%;
+      }
+      #posts {
+            margin-left: 12.5%;
+      }
+}
+@media (max-width: 1600px){
+      .banner {
+            height: 2.5em;
+      }
+      .logo{
+            margin-top: -1.5%;
+      }
+      ul {
+            margin-top: -7%;
+      }
+      #posts {
+            margin-left: 10%;
+      }
+}
+@media (max-width: 1490px){
+      ul {
+            margin-right: -35%;
+            margin-top: -7.5%;
+        }
+        .logo{
+            margin-top: -1.75%;
+        }
+      #posts {
+            margin-left: 7.5%;
+      }
+}
+@media (max-width: 1420px){
+      ul {
+            margin-top: -8%;
+            margin-right: -30%;
+      }
+      .logo{
+            margin-top: -2%;
+      }
+      #posts {
+            margin-top: -20%;
+            margin-left: 30%;
+      }
+      .kader {
+            float: none;
+            margin-top: 0%;
+      }
+      #f1, #f2, #f3 {
+            width: 40em;
+            height: 40em;
+      }
+      .kader p {
+            width: 40em;
+      }
+}
+@media (max-width: 1250px){
+      .banner {
+            font-size: 1.2em;
+        }
+      .logo{
+            margin-top: -2%;
+      }
+      ul {
+            margin-top: -8.5%;
+            margin-right: -22.5%;
+      }
+      #posts {
+            margin-top: -25%;
+            margin-left: 25%;
+      }
+}
+@media (max-width: 1075px){
+      .banner {
+            height: 2em;
+        }
+      .logo{
+            margin-top: -3%;
+      }
+      ul {
+            margin-top: -9.5%;
+            margin-right: -17.5%;
+      }
+      #posts {
+            margin-top: -30%;
+            margin-left: 30%;
+      }
+      .kader {
+            margin-top: -20%;
+      }
+      #f1, #f2, #f3 {
+            width: 25em;
+            height: 25em;
+      }
+      .kader p {
+            width: 25em;
+      }
+}
+@media (max-width: 940px){
+      ul {
+            width: 100%;
+            margin-top: -11.5%;
+            margin-right: -15%;
+      }
+      h1 {
+            visibility: hidden;
+      }
+      #posts {
+            margin-top: -35%;
+            margin-left: 27.5%;
+      }
+      .kader {
+            margin-top: -25%;
+      }
+}
+@media (max-width: 840px){
+      ul {
+            margin-top: -13.5%;
+            margin-right: -12.5%;
+      }
+      #posts {
+            margin-top: -40%;
+            margin-left: 22.5%;
+      }
+      .kader {
+            margin-top: -30%;
+      }
+}
+@media (max-width: 775px){
+      ul {
+            margin-top: -14%;
+            margin-right: -10%;
+      }
+      #posts {
+            margin-top: -45%;
+      }
+}
+@media (max-width: 700px){
+      ul {
+            margin-top: -16%;
+            margin-right: -7.5%;
+      }
+      #posts {
+            margin-top: -50%;
+            margin-left: 20%;
+      }
+      .kader {
+            margin-top: -35%;
+      }
+}
+@media (max-width: 620px){
+      .banner {
+            font-size: 1em;
+      }
+      ul {
+            margin-top: -15%;
+            margin-right: -5%;
+      }
+      #posts {
+            margin-top: -55%;
+            margin-left: 15%;
+      }
+      .kader {
+            margin-top: -40%;
+      }
+}
+@media (max-width: 530px){
+      ul {
+            margin-top: -19%;
+            margin-right: -7.5%;
+      }
+      .banner a {
+            margin-right: 1%;
+      }
+      #posts {
+            margin-top: -68%;
+            margin-left: 10%;
+      }
+      .kader {
+            margin-top: -50%;
+      }
+}
+@media (max-width: 480px){
+      ul {
+            margin-top: -21%;
+            margin-right: -3%;
+      }
+      .banner a {
+            margin-right: 0%;
+      }
+      #posts {
+            margin-top: -77.5%;
+            margin-left: 5%;
+      }
+      .kader {
+          margin-top: -57.5%;
+      }
+}
