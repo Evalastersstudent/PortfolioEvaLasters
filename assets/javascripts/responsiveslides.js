@@ -10,13 +10,11 @@
 
 (function ($, window, i) {
   $.fn.responsiveSlides = function (options) {
-
-    // Default settings
     var settings = $.extend({
       "auto": true,             // Boolean: Animate automatically, true or false
       "speed": 500,             // Integer: Speed of the transition, in milliseconds
-      "timeout": 4000,          // Integer: Time between slide transitions, in milliseconds
-      "pager": false,           // Boolean: Show pager, true or false
+      "timeout": 1000,          // Integer: Time between slide transitions, in milliseconds
+      "pager": true,           // Boolean: Show pager, true or false
       "nav": false,             // Boolean: Show navigation, true or false
       "random": false,          // Boolean: Randomize the order of the slides, true or false
       "pause": false,           // Boolean: Pause on hover, true or false
