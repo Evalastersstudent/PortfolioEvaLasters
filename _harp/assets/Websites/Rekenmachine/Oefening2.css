@@ -1,0 +1,80 @@
+body {
+  background-color: hotpink;
+  font-family: 'Coming Soon', cursive;
+}
+
+#rekenmachine {
+  background-color: plum;
+  border: springgreen solid 10px;
+  width: 260px;
+  height: 315px;
+  margin: 150px auto;
+  padding: 10px 25px 25px 25px;
+  text-align: center;
+  border-radius: 25px;
+  border-style: double;
+  font-weight: bold;
+}
+
+input {
+  font-family: 'Coming Soon', cursive;
+  color: springgreen;
+  width: 225px;
+  height: 50px;
+  font-size: 1.5em;
+  background-color: deeppink;
+  border: plum 5px;
+  border-radius: 25px;
+  border-style: double dotted;
+  margin: 10px auto;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+button {
+  font-family: 'Coming Soon', cursive;
+  background-color: deeppink;
+  color: springgreen;
+  text-align: center;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  font-size: 1.25em;
+  border: plum 5px;
+  border-radius: 25px;
+  border-style: double dotted;
+}
+
+.cijfer {
+  margin-left: 7.5px;
+}
+
+@media (max-width: 400px){
+    #rekenmachine {
+      border: springgreen solid 5px;
+      width: 140px;
+      height: 160px;
+      margin: 150px auto;
+      padding: 5px 12.5px 12.5px 12.5px;
+      font-weight: normal;
+    }
+    input {
+      width: 125px;
+      height: 25px;
+      font-size: 1em;
+      border: plum 2.5px;
+      margin: 5px auto;
+      padding: 2.5px 5px;
+      font-weight: normal;
+    }
+    button {
+      margin: 2.5px;
+      width: 25px;
+      height: 25px;
+      font-size: 1em;
+      border: plum 2.5px;
+    }
+    .cijfer {
+      margin-left: 5px;
+    }
+}
