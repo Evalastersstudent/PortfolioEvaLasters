@@ -66,6 +66,10 @@ a {
   margin-top: -45px;
   }
 
+img {
+  width: 300px;
+}
+
 .centered-btns_nav:active {
   opacity: 1.0;
   }
