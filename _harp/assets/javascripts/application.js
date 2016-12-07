@@ -4,8 +4,8 @@ function main() {
                   auto: true,
                   speed: 250,
                   timeout: 500,
-                  pager: false,
-                  random: false
+                  pager: true,
+                  random: true
             );
       });
 }
