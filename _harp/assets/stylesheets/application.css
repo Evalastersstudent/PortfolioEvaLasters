@@ -137,7 +137,7 @@ footer p {
   overflow: hidden;
   width: 75%;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   }
 
 .callbacks_nav {
