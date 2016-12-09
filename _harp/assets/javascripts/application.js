@@ -4,7 +4,7 @@ function main() {
       });
       $("#slider").responsiveSlides({
             auto: true,
-            pager: false,
+            pager: true,
             nav: true,
             speed: 500,
             namespace: "callbacks",
