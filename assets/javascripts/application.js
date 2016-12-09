@@ -7,6 +7,7 @@ function main() {
             pager: true,
             nav: true,
             speed: 500,
+            pause: false,
             namespace: "callbacks",
             before: function () {
                   $('.events').append("<li>before event fired.</li>");
