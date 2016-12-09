@@ -150,11 +150,11 @@ footer p {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     display: block;
     background: #fff; /* Fix for IE6-9 */
-    width: 13.5%;
+    width: 13.25%;
     overflow: hidden;
     height: 400px;
     border: 1px black solid;
-    margin: -10% 0% 0% 18.75%;
+    margin: -10% 0% 0% 19.25%;
     }
 
   .callbacks_nav.next {
