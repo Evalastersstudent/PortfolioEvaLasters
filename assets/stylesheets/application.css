@@ -127,6 +127,10 @@ footer p {
       background-color: rgba(0,0,0,1);
 }
 
+.callbacks_container {
+    width: 75%;
+    margin: 0 auto;
+    }
 
 
 
