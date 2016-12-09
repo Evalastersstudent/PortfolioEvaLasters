@@ -2,13 +2,18 @@ function main() {
       $(function() {
             $(".rslides").responsiveSlides();
       });
-      $(function() {
-            $("#slider").responsiveSlides(
-                  "pager": true,           // Boolean: Show pager, true or false
-                  "random": true,          // Boolean: Randomize the order of the slides, true or false
-                  "pauseControls": true,    // Boolean: Pause when hovering controls, true or false
-                  "namespace": "large-btns",   // String: change the default namespace used
-            );
+      $("#slider").responsiveSlides({
+            auto: false,
+            pager: false,
+            nav: true,
+            speed: 500,
+            namespace: "callbacks",
+            before: function () {
+                  $('.events').append("<li>before event fired.</li>");
+            },
+            after: function () {
+                  $('.events').append("<li>after event fired.</li>");
+            }
       });
 }
 
