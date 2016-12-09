@@ -131,13 +131,6 @@ footer p {
   list-style: none;
   }
 
-.callbacks_container {
-  margin-bottom: 50px;
-  position: relative;
-  float: left;
-  width: 100%;
-  }
-
 .callbacks {
   position: relative;
   list-style: none;
