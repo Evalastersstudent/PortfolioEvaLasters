@@ -4,7 +4,6 @@ function main() {
       });
       $("#slider").responsiveSlides({
             auto: true,
-            pager: true,
             nav: true,
             speed: 500,
             pause: false,
@@ -15,6 +14,7 @@ function main() {
             after: function () {
                   $('.events').append("<li>after event fired.</li>");
             }
+            manualControls: "",
       });
 }
 
