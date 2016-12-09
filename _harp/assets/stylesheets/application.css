@@ -130,7 +130,11 @@ footer p {
 .callbacks_container {
     width: 75%;
     margin: 0 auto;
-    }
+}
+
+#slider {
+  border: 1px solid black;
+}
 
 
 
