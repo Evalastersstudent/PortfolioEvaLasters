@@ -149,6 +149,7 @@ footer p {
   height: 61px;
   width: 38px;
   background: transparent url("themes/themes.gif") no-repeat left top;
+  margin: -5% 0% 0% -5%;
   }
 
 .callbacks_nav:active {
