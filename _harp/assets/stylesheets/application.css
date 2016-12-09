@@ -135,7 +135,7 @@ footer p {
   position: relative;
   list-style: none;
   overflow: hidden;
-  width: 75%;
+  width: 50%;
   padding: 0;
   margin: 0 auto;
   }
@@ -149,7 +149,7 @@ footer p {
   height: 61px;
   width: 38px;
   background: transparent url("themes/themes.gif") no-repeat left top;
-  margin: -15% 0% 0% -35%;
+  margin: -15% 0% 0% -25%;
   }
 
 .callbacks_nav:active {
