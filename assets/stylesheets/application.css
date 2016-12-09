@@ -135,7 +135,7 @@ footer p {
   position: relative;
   list-style: none;
   overflow: hidden;
-  width: 10%;
+  width: 75%;
   padding: 0;
   margin: 0 auto;
   }
@@ -148,8 +148,7 @@ footer p {
   text-decoration: none;
   height: 61px;
   width: 38px;
-  background: transparent url("themes/themes.gif") no-repeat left top;
-  margin: -15% 0% 0% -25%;
+  margin: -15% 0% 0% -35%;
   }
 
 .callbacks_nav:active {
@@ -158,7 +157,6 @@ footer p {
 
 .callbacks_nav.next {
   left: auto;
-  background-position: right top;
   right: 0;
   }
 
