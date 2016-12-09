@@ -154,12 +154,11 @@ footer p {
     overflow: hidden;
     height: 400px;
     border: 1px black solid;
-    margin: -15% 0% 0% 20%;
+    margin: -10% 0% 0% 20%;
     }
 
   .callbacks_nav.next {
-    left: auto;
-    right: 0;
+    margin-left: 15%;
     border: 1px black solid;
     }
 
