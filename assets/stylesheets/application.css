@@ -151,10 +151,6 @@ footer p {
   margin: -15% 0% 0% -35%;
   }
 
-.callbacks_nav:active {
-  opacity: 1.0;
-  }
-
 .callbacks_nav.next {
   left: auto;
   right: 0;
