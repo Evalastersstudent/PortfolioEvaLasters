@@ -131,6 +131,12 @@ footer p {
   list-style: none;
   }
 
+  .callbacks_container {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px black solid;
+    }
+
 .callbacks {
   list-style: none;
   overflow: hidden;
