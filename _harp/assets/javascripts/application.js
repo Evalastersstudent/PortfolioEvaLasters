@@ -3,7 +3,7 @@ function main() {
             $(".rslides").responsiveSlides();
       });
       $("#slider").responsiveSlides({
-            auto: false,
+            auto: true,
             pager: false,
             nav: true,
             speed: 500,
