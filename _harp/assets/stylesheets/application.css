@@ -180,7 +180,6 @@ footer p {
     }
 
   .callbacks_tabs a {
-    text-indent: -9999px;
     overflow: hidden;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
