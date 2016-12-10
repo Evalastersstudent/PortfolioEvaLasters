@@ -7,7 +7,8 @@ function main() {
         });
 
         $("#slider3").responsiveSlides({
-          nav: false,
+          nav: true,
+          speed: 5,
           namespace: "callbacks",
           before: function () {
             $('.events').append("<li>before event fired.</li>");
