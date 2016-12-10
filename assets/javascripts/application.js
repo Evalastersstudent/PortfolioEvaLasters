@@ -7,9 +7,7 @@ function main() {
         });
 
         $("#slider3").responsiveSlides({
-          nav: true,
-          speed: 1000,
-          namespace: "callbacks"
+          nav: true
         });
       });
 }
