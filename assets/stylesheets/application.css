@@ -65,7 +65,7 @@ footer p {
 .indexmain {
       text-align: center;
       background-color: rgba(0,0,0,0.5);
-      padding: 1% 1% -5% 1%;
+      padding: 2%;
       border-radius: 10px;
       width: 75%;
       margin: 1.5% auto 0% auto;
@@ -105,7 +105,6 @@ footer p {
 
 
 #wrapper {
-  padding: 20px;
   width: 70%;
   margin: 20px auto 0;
   }
