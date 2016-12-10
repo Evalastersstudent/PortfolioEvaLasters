@@ -130,6 +130,7 @@ footer p {
 
 .events {
   list-style: none;
+  border: 1px solid black;
   }
 
   .callbacks_container {
