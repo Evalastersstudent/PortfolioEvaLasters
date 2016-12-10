@@ -7,6 +7,7 @@ function main() {
             nav: true,
             speed: 500,
             pause: false,
+            manualControls: '#slider-pager',
             namespace: "callbacks",
             before: function () {
                   $('.events').append("<li>before event fired.</li>");
