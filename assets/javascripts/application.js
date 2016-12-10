@@ -7,7 +7,10 @@ function main() {
         });
 
         $("#slider3").responsiveSlides({
-          nav: true
+          nav: true,
+
+          prevText: "",
+          nextText: ""
         });
       });
 }
