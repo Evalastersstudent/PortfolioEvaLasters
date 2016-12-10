@@ -148,6 +148,21 @@ footer p {
       font-weight: bold;
 }
 
+/* tekst */
+.callbacks .caption {
+      display: block;
+      position: absolute;
+      z-index: 2;
+      background: #000;
+      background: rgba(0,0,0, .8);
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 10px 20px;
+      margin: 0;
+      max-width: none;
+}
+
 #slider3-pager a {
       display: inline-block;
 }
