@@ -155,10 +155,9 @@ footer p {
     width: 13.25%;
     overflow: hidden;
     height: 400px;
-    left:
+    left: 19.25%;
     /*opacity: 0;
     filter: alpha(opacity=1);*/
-    margin: -10% 0% 0% 19.25%;
     }
 
   .callbacks_nav.next {
