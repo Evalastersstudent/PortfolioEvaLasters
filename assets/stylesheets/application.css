@@ -166,6 +166,23 @@ footer p {
     outline: none;
     border: 1px black solid;
     }
+    #slider-pager a {
+      display: inline-block;
+    }
+
+    #slider-pager img {
+      float: left;
+    }
+
+    #slider-pager .rslides_here a {
+      background: transparent;
+      box-shadow: 0 0 0 2px #666;
+    }
+
+    #slider-pager a {
+      padding: 0;
+    }
+
 
 
 /*-----C4D-----*/
