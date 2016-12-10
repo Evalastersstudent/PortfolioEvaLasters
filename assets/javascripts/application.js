@@ -1,4 +1,4 @@
-function main() {
+/*function main() {
       $(function() {
             $(".rslides").responsiveSlides();
       });
@@ -20,3 +20,4 @@ function main() {
 window.onload = function() {
       main();
 }
+*/
