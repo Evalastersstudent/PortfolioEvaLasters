@@ -129,13 +129,17 @@ footer p {
   margin-right: 1px;
   }
 .rslides_tabs a {
-  width: 25px;
+  width: auto;
   line-height: 20px;
   padding: 9px 20px;
-  height: 25px;
+  height: auto;
   background: transparent;
   display: inline;
   }
+  .rslides_tabs a {
+    width: 25px;
+    height: 25px;
+    }
 .rslides_tabs li:first-child {
   margin-left: 0;
   }
