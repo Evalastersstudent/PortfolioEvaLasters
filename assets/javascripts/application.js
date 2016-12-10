@@ -6,10 +6,6 @@ function main() {
           maxwidth: 540
         });
 
-        $("#slider3").responsiveSlides({
-          nav: true,
-        });
-      });
 }
 
 window.onload = function() {
