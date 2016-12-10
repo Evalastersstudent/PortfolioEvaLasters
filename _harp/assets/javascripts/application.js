@@ -8,7 +8,7 @@ function main() {
 
         $("#slider3").responsiveSlides({
           nav: true,
-          speed: 5,
+          speed: 1000,
           namespace: "callbacks",
           before: function () {
             $('.events').append("<li>before event fired.</li>");
