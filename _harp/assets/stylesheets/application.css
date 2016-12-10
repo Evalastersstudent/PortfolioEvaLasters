@@ -155,6 +155,7 @@ footer p {
     filter: alpha(opacity=1);*/
     position: absolute;
     left: 43.3%;
+    top: 0%;
     }
 
   .callbacks_nav.next {
