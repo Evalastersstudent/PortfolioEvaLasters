@@ -96,35 +96,6 @@ footer p {
       margin: 0% auto;
 }
 
-#wrapper {
-      width: 100%;
-      margin: 0% auto;
-      text-align: center;
-}
-.indexmain #wrapper ul li {
-      margin: 0px auto;
-      border-radius: 10px;
-      text-align: center;
-}
-.indexmain #wrapper img {
-      max-height: 400px;
-      border-radius: 10px;
-      margin: 0% auto;
-      position: relative;
-}
-.indexmain #wrapper a {
-      transform: translate(-50%, -50%);
-      font-size: 18px;
-      color: black;
-      padding: 2.5%;
-      background-color: rgba(0,0,0,0.75);
-      border-radius: 10px;
-      color: white;
-      text-decoration: none;
-}
-.indexmain #wrapper a:hover{
-      background-color: rgba(0,0,0,1);
-}
 
 #wrapper {
   padding: 20px;
