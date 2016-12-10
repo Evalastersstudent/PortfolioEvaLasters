@@ -123,7 +123,7 @@ footer p {
   -webkit-box-shadow: 0 0 1px rgba(255,255,255,.3), inset 0 0 5px rgba(0,0,0,1.0);
   font-size: 18px;
   list-style: none;
-  margin: 0 auto 50px;
+  margin: 0 auto;
   max-width: 50%;
   padding: 10px 0;
   text-align: center;
