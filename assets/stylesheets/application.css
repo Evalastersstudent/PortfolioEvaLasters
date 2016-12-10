@@ -72,29 +72,36 @@ footer p {
 }
 
 .rslides {
-      list-style: none;
-      overflow: hidden;
-      width: 75%;
-      margin: 0% auto;
-}
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
 
 .rslides li {
-      -webkit-backface-visibility: hidden;
-      display: none;
-      width: 100%;
-      margin: 0% auto;
-}
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
 
 .rslides li:first-child {
-      display: block;
-      margin: 0% auto;
-}
+  position: relative;
+  display: block;
+  float: left;
+  }
 
 .rslides img {
-      display: block;
-      max-width: 100%;
-      margin: 0% auto;
-}
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
 
 
 #wrapper {
