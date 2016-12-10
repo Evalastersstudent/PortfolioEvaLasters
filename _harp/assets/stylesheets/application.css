@@ -155,7 +155,7 @@ footer p {
     height: 400px;
     /*opacity: 0;
     filter: alpha(opacity=1);*/
-    position: relative;
+    position: absolute;
     left: 43.3%;
     margin-top: -10%;
     }
