@@ -113,8 +113,6 @@ footer p {
       position: relative;
 }
 .indexmain #wrapper a {
-      position: absolute;
-      top: 85%;
       transform: translate(-50%, -50%);
       font-size: 18px;
       color: black;
