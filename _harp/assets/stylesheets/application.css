@@ -156,8 +156,8 @@ footer p {
     /*opacity: 0;
     filter: alpha(opacity=1);*/
     position: relative;
-    left: 43.25%;
-    bottom: 50%;
+    left: 43.3%;
+    margin-top: -50%;
     }
 
   .callbacks_nav.next {
