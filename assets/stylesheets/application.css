@@ -232,10 +232,10 @@ footer p {
 }
 @media only screen and (max-width: 900px) {
       .rslides {
-            width: 65%;
+            width: 70%;
       }
       .rslides_tabs {
-            max-width: 65%;
+            max-width: 70%;
       }
 }
 @media only screen and (max-width: 770px) {
@@ -250,10 +250,10 @@ footer p {
             border-bottom-right-radius: 10px;
       }
       .rslides {
-            width: 100%;
+            width: 85%;
       }
       .rslides_tabs {
-            max-width: 100%;
+            max-width: 85%;
       }
 }
 @media only screen and (max-width: 540px) {
