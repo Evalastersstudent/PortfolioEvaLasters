@@ -250,6 +250,12 @@ footer p {
             border-bottom-right-radius: 10px;
             font-size: 12.5px;
       }
+      .rslides {
+            width: 80%;
+      }
+      .rslides_tabs {
+            max-width: 80%;
+      }
 }
 @media only screen and (max-width: 540px) {
       .callbacks .caption {
