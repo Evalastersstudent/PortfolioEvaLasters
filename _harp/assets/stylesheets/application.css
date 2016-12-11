@@ -224,7 +224,7 @@ footer p {
       padding: 0;
 }
 @media only screen and (max-width: 770px) {
-      #slider3-pager a {
+      #slider3-pager {
             display: none;
       }
 }
