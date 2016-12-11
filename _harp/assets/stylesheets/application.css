@@ -226,18 +226,7 @@ footer p {
       padding: 0;
 }
 @media only screen and (max-width: 1200px) {
-      .indexheader {
-            padding-top: 4%;
-            padding-bottom: 4%;
-      }
-      .indexmain {
-            padding-top: 4%;
-            padding-bottom: 4%;
-      }
-      .indexfooter {
-            padding-top: 1.5%;
-            padding-bottom: 1.5%;
-      }
+
 }
 @media only screen and (max-width: 770px) {
       #slider3-pager {
