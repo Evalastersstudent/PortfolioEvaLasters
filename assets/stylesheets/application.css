@@ -394,8 +394,11 @@ footer p {
       height: auto;
       border-radius: 10px;
 }
-.photoshopmain .grid-item--width2, .photoshopmain .grid-item--height2 {
+.photoshopmain .grid-item--width2 {
       width: 40.1%;
+}
+.photoshopmain .grid-item--height2 {
+      height: 40.1%;
 }
 
 
