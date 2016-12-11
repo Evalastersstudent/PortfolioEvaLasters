@@ -396,6 +396,9 @@ footer p {
 .photoshopmain .grid-item--width2 {
       width: 40.1%;
 }
+.photoshopmain .grid-item--width2 {
+      height: 40.1%;
+}
 
 
 /*-----Websites-----*/
