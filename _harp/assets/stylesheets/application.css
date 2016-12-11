@@ -58,9 +58,9 @@ footer p {
             font-size: 2.5em;
       }
 }
-@media only screen and (max-width: 530px) {
+@media only screen and (max-width: 540px) {
       h1 {
-            font-size: 1.75em;
+            font-size: 2em;
       }
 }
 @media only screen and (max-width: 430px) {
@@ -276,9 +276,6 @@ footer p {
       }
 }
 @media only screen and (max-width: 630px) {
-      h1 {
-            font-size: 2.5em;
-      }
       .rslides {
             width: 100%;
       }
