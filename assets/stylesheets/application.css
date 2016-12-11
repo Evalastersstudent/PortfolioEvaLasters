@@ -157,13 +157,20 @@ footer p {
       text-shadow: none;
       color: #fff;
       background: #000;
-      background: rgba(0,0,0, .8);
+      background: rgba(0,0,0,0.5);
       left: 0;
       right: 0;
       bottom: 0;
       padding: 10px 20px;
       margin: 0;
       max-width: none;
+}
+.callbacks .caption:hover {
+      background: rgba(0,0,0,1);
+}
+.callbacks .caption a {
+      text-decoration: none;
+      color: white;
 }
 
 /* linkerpijl (of pijlengroep) */
