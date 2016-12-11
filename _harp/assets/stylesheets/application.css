@@ -58,8 +58,6 @@ footer p {
       h1 {
             font-size: 1em;
       }
-}
-@media only screen and (max-width: 360px) {
       footer p {
             font-size: 0.75em;
       }
