@@ -230,6 +230,11 @@ footer p {
             width: 100%;
       }
 }
+@media only screen and (max-width: 900px) {
+      .rslides {
+            width: 75%;
+      }
+}
 @media only screen and (max-width: 770px) {
       #slider3-pager {
             display: none;
