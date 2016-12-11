@@ -59,6 +59,11 @@ footer p {
             font-size: 1em;
       }
 }
+@media only screen and (max-width: 350px) {
+      footer p {
+            font-size: 0.75em;
+      }
+}
 
 
 /*-----Index-----*/
