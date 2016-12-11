@@ -386,7 +386,7 @@ footer p {
       margin: 1%;
       border-radius: 10px;
       float: left;
-      clear: both;
+      clear: none;
       height: auto;
 }
 .photoshopmain .grid-item img {
