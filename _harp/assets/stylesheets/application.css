@@ -260,9 +260,6 @@ footer p {
       }
 }
 @media only screen and (max-width: 770px) {
-      #slider3-pager {
-            display: none;
-      }
       .rslides img {
             border-radius: 15px;
       }
