@@ -260,13 +260,6 @@ footer p {
       }
 }
 @media only screen and (max-width: 770px) {
-      .rslides img {
-            border-radius: 15px;
-      }
-      .callbacks .caption {
-            border-bottom-left-radius: 10px;
-            border-bottom-right-radius: 10px;
-      }
       .rslides {
             width: 85%;
       }
