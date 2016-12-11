@@ -128,6 +128,7 @@ footer p {
       display: inline;
       float: none;
       margin-right: 1px;
+      border-radius: 25%;
 }
 .rslides_tabs a {
       width: auto;
@@ -136,6 +137,7 @@ footer p {
       height: auto;
       background: transparent;
       display: inline;
+      border-radius: 25%;
 }
 .rslides_tabs img {
       width: 25px;
