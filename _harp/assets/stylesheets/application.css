@@ -239,6 +239,9 @@ footer p {
       #wrapper {
             width: 100%;
       }
+      .indexmain {
+            padding: 3.5%;
+      }
 }
 @media only screen and (max-width: 900px) {
       .rslides {
@@ -246,6 +249,9 @@ footer p {
       }
       .rslides_tabs {
             max-width: 70%;
+      }
+      .indexmain {
+            padding: 5%;
       }
 }
 @media only screen and (max-width: 770px) {
@@ -277,10 +283,10 @@ footer p {
 }
 @media only screen and (max-width: 430px) {
       .rslides {
-            width: 85%;
+            width: 100%;
       }
       .rslides_tabs {
-            max-width: 85%;
+            max-width: 100%;
       }
 }
 
