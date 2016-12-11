@@ -65,15 +65,10 @@ footer p {
 }
 @media only screen and (max-width: 430px) {
       h1 {
-            font-size: 1.5em;
+            font-size: 1em;
       }
       footer p {
             font-size: 0.75em;
-      }
-}
-@media only screen and (max-width: 350px) {
-      h1 {
-            font-size: 1em;
       }
 }
 
