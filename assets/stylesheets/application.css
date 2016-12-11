@@ -250,10 +250,10 @@ footer p {
             border-bottom-right-radius: 10px;
       }
       .rslides {
-            width: 80%;
+            width: 90%;
       }
       .rslides_tabs {
-            max-width: 80%;
+            max-width: 90%;
       }
 }
 @media only screen and (max-width: 540px) {
