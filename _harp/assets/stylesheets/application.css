@@ -140,7 +140,7 @@ footer p {
 .rslides_tabs img {
       width: 25px;
       height: 25px;
-      border-radius: 1%;
+      border-radius: 5%;
 }
 .rslides_tabs li:first-child {
       margin-left: 0;
