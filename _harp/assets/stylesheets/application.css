@@ -197,6 +197,9 @@ footer p {
       right: 0;
 }
 
+#slider3-pager  {
+      padding: 0;
+}
 #slider3-pager a {
       display: inline-block;
 }
