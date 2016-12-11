@@ -1,7 +1,7 @@
 /*-----Algemeen-----*/
 * { box-sizing: border-box; }
 body {
-      background-image: url("assets/Fotos/Achtergrond");
+      background-image: url("assets/Fotos/Achtergrond.jpg");
       background-position: center;
       background-repeat: repeat-y;
       background-size: cover;
