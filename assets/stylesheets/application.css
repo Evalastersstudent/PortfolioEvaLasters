@@ -224,8 +224,8 @@ footer p {
       padding: 0;
 }
 @media only screen and (max-width: 1040px) {
-      #slider3-pager img {
-            margin: 0;
+      .rslides_tabs a {
+            padding: 0px;
       }
 }
 @media only screen and (max-width: 770px) {
