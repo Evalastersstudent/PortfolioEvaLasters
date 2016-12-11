@@ -227,6 +227,9 @@ footer p {
       #slider3-pager {
             display: none;
       }
+      .rslides img {
+            border-radius: 10px;
+      }
 }
 @media only screen and (max-width: 540px) {
       h1 {
