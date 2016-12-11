@@ -193,6 +193,7 @@ footer p {
       width: 38px;
       background: transparent url("themes/themes.gif") no-repeat left top;
       margin-top: -45px;
+      border: 0;
 }
 
 /* rechterpijl */
@@ -200,6 +201,7 @@ footer p {
       left: auto;
       background-position: right top;
       right: 0;
+      border: 0;
 }
 
 #slider3-pager  {
