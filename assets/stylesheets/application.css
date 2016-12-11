@@ -228,17 +228,17 @@ footer p {
             display: none;
       }
       .rslides img {
-            border-radius: 10px;
+            border-radius: 15px;
       }
       .callbacks .caption {
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
-            font-size: 10px;
+            font-size: 15px;
       }
 }
 @media only screen and (max-width: 540px) {
-      h1 {
-            font-size: 1em;
+      .callbacks .caption {
+            font-size: 10px;
       }
 }
 
