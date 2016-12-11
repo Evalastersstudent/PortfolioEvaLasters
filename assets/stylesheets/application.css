@@ -206,6 +206,7 @@ footer p {
       padding-bottom: 0;
       border-bottom-right-radius: 10px;
       border-bottom-left-radius: 10px;
+      border: 0;
 }
 #slider3-pager a {
       display: inline-block;
