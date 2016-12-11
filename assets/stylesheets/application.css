@@ -300,6 +300,7 @@ footer p {
       border-radius: 10px;
       float: left;
       height: auto;
+      display: inline;
 }
 .c4dmain .grid-item img {
       max-width: 100%;
