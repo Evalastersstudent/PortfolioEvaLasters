@@ -97,8 +97,8 @@ footer p {
       float: left;
       width: 100%;
       border: 0;
-      border-bottom-right-radius: 10px;
-      border-bottom-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
 }
 #wrapper {
       width: 70%;
@@ -140,8 +140,7 @@ footer p {
 .rslides_tabs img {
       width: 25px;
       height: 25px;
-      border-bottom-right-radius: 10px;
-      border-bottom-left-radius: 10px;
+      border-radius: 1%;
 }
 .rslides_tabs li:first-child {
       margin-left: 0;
