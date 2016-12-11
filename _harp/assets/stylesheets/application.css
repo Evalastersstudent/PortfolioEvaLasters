@@ -52,7 +52,7 @@ footer p {
 @media only screen and (max-width: 770px) {
       h1 {
             font-size: 2em;
-            font-weight: normal;
+            font-weight: 400;
       }
 }
 @media only screen and (max-width: 540px) {
