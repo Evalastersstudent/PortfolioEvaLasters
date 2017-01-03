@@ -1,0 +1,412 @@
+body {
+    font-family: 'Arima Madurai', cursive;
+    min-height: 740px;
+    background: #000;
+    font-size: 1em;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.step {
+    position: relative;
+    padding: 25px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 2em;
+    line-height: 1.5;
+    font-family: 'Arima Madurai', cursive;
+    text-align: justify;
+}
+.impress-enabled .step {
+    margin: 0;
+    opacity: 0.1;
+    background-color: black;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.impress-enabled .step.active {
+    opacity: 1;
+}
+img {
+  max-width: 100%;
+  border-radius: 25px;
+}
+#dia1 {
+  background-color: red;
+  border-radius: 50px;
+  width: 950px;
+  height: 165px;
+  font-size: 4.75em;
+  text-align: center;
+  color: white;
+}
+#dia2 {
+  color: yellow;
+  width: 800px;
+  height: 430px;
+  font-weight: 100;
+}
+    p .span2 {
+      font-weight: 900;
+      font-style: italic;
+    }
+#dia3 {
+  background-color: rgba(0, 0, 255, 0.5);
+  width: 900px;
+  height: 375px;
+  color: white;
+  font-weight: 100;
+  font-size: 1.5em;
+  border-radius: 50px;
+}
+    p .span3 {
+      font-size: 2.25em;
+      line-height: 1.2em;
+      font-weight: normal;
+      font-style: italic;
+    }
+#dia4 {
+  color: green;
+  width: 165px;
+  height: 425px;
+  font-size: 1.25em;
+  text-align: center;
+}
+    p .span4 {
+      border: 1px solid green;
+      border-radius: 10px;
+      padding: 5px 2.5px;
+      line-height: 2.5em;
+      background-color: green;
+      color: black;
+    }
+#dia5 {
+    width: 600px;
+    height: 475px;
+    font-size: 2.5em;
+    color: orange;
+}
+    p .span5 {
+      font-style: italic;
+      display: inline-block;
+      -webkit-transition: 1s;
+      -moz-transition: 01s;
+      -ms-transition: 1s;
+      -o-transition: 1s;
+      transition: 1s;
+    }
+    #dia5.present .span5 {
+      -webkit-transform: scale(1.5) translateX(25px);
+      -moz-transform: scale(1.5) translateX(25px);
+      -ms-transform: scale(1.5) translateX(25px);
+      -o-transform: scale(1.5) translateX(25px);
+      transform: scale(1.5) translateX(25px);
+    }
+#dia6 {
+    width: 600px;
+    height: 475px;
+    font-size: 2.5em;
+    color: darkgrey;
+}
+    #dia6 p .span6deel1, #dia6 p .span6deel2, #dia6 p .span6deel3 {
+      font-style: italic;
+      display: inline-block;
+      -webkit-transition: 0.25s;
+      -moz-transition: 0.25s;
+      -ms-transition: 0.25s;
+      -o-transition: 0.25s;
+      transition: 0.25s;
+    }
+    #dia6.present .span6deel1 {
+      -webkit-transform: scale(1.25) translateX(10px);
+      -moz-transform: scale(1.25) translateX(10px);
+      -ms-transform: scale(1.25) translateX(10px);
+      -o-transform: scale(1.25) translateX(10px);
+      transform: scale(1.25) translateX(10px);
+    }
+    #dia6.present .span6deel2 {
+      -webkit-transform: scale(1.25) translateX(35px);
+      -moz-transform: scale(1.25) translateX(35px);
+      -ms-transform: scale(1.25) translateX(35px);
+      -o-transform: scale(1.25) translateX(35px);
+      transform: scale(1.25) translateX(35px);
+      -webkit-transition-delay: 0.25s;
+      -moz-transition-delay: 0.25s;
+      -ms-transition-delay: 0.25s;
+      -o-transition-delay: 0.25s;
+      transition-delay: 0.25s;
+    }
+    #dia6.present .span6deel3 {
+      -webkit-transform: scale(1.25) translateX(60px);
+      -moz-transform: scale(1.25) translateX(60px);
+      -ms-transform: scale(1.25) translateX(60px);
+      -o-transform: scale(1.25) translateX(60px);
+      transform: scale(1.25) translateX(60px);
+      -webkit-transition-delay: 0.5s;
+      -moz-transition-delay: 0.5s;
+      -ms-transition-delay: 0.5s;
+      -o-transition-delay: 0.5s;
+      transition-delay: 0.5s;
+    }
+#dia7 {
+    width: 600px;
+    height: 475px;
+    font-size: 2.5em;
+    text-align: center;
+    font-size: 4em;
+    border: 5px solid purple;
+    border-radius: 50px;
+    color: purple;
+}
+#dia8 {
+    width: 600px;
+    height: 475px;
+    font-size: 3.5em;
+    text-align: center;
+    border-radius: 50px;
+    background-color: deeppink;
+}
+#dia9 {
+    width: 600px;
+    height: 475px;
+    font-size: 2.5em;
+    border-radius: 50px;
+    color: white;
+    border: 5px solid white;
+}
+    #dia9 img {
+      margin-top: 75px;
+    }
+#dia10 {
+  width: 585px;
+  height: 150px;
+  color: seagreen;
+}
+    #dia10 p .span10deel1, #dia10 p .span10deel2, #dia10 p .span10deel3, #dia10 p .span10deel4, #dia10 p .span10deel5, #dia10 p .span10deel6, #dia10 p .span10deel7, #dia10 p .span10deel8, #dia10 p .span10deel9, #dia10 p .span10deel10 {
+      display: inline-block;
+      -webkit-transform: scale(0);
+      -moz-transform: scale(0);
+      -ms-transform: scale(0);
+      -o-transform: scale(0);
+      transform: scale(0);
+      -webkit-transition: 0.5s;
+      -moz-transition: 0.5s;
+      -ms-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s;
+      font-size: 2em;
+      line-height: 1em;
+    }
+    #dia10.present .span10deel1 {
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+    }
+    #dia10.present .span10deel2 {
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition-delay: 0.25s;
+      -moz-transition-delay: 0.25s;
+      -ms-transition-delay: 0.25s;
+      -o-transition-delay: 0.25s;
+      transition-delay: 0.25s;
+    }
+    #dia10.present .span10deel3 {
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition-delay: 0.5s;
+      -moz-transition-delay: 0.5s;
+      -ms-transition-delay: 0.5s;
+      -o-transition-delay: 0.5s;
+      transition-delay: 0.5s;
+    }
+    #dia10.present .span10deel4 {
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition-delay: 0.75s;
+      -moz-transition-delay: 0.75s;
+      -ms-transition-delay: 0.75s;
+      -o-transition-delay: 0.75s;
+      transition-delay: 0.75s;
+    }
+    #dia10.present .span10deel5 {
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition-delay: 1s;
+      -moz-transition-delay: 1s;
+      -ms-transition-delay: 1s;
+      -o-transition-delay: 1s;
+      transition-delay: 1s;
+    }
+    #dia10.present .span10deel6 {
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition-delay: 1.25s;
+      -moz-transition-delay: 1.25s;
+      -ms-transition-delay: 1.25s;
+      -o-transition-delay: 1.25s;
+      transition-delay: 1.25s;
+    }
+    #dia10.present .span10deel7 {
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition-delay: 1.5s;
+      -moz-transition-delay: 1.5s;
+      -ms-transition-delay: 1.5s;
+      -o-transition-delay: 1.5s;
+      transition-delay: 1.5s;
+    }
+    #dia10.present .span10deel8 {
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition-delay: 1.75s;
+      -moz-transition-delay: 1.75s;
+      -ms-transition-delay: 1.75s;
+      -o-transition-delay: 1.75s;
+      transition-delay: 1.75s;
+    }
+    #dia10.present .span10deel9 {
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition-delay: 2s;
+      -moz-transition-delay: 2s;
+      -ms-transition-delay: 2s;
+      -o-transition-delay: 2s;
+      transition-delay: 2s;
+    }
+    #dia10.present .span10deel10 {
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition-delay: 2.25s;
+      -moz-transition-delay: 2.25s;
+      -ms-transition-delay: 2.25s;
+      -o-transition-delay: 2.25s;
+      transition-delay: 2.25s;
+    }
+#dia11 {
+  width: 475px;
+  height: 240px;
+  background-color: gold;
+  font-style: italic;
+  font-size: 2em;
+  font-weight: 100;
+  border-radius: 50px;
+}
+    p .span11 {
+      font-weight: 900;
+      font-style: normal;
+      text-decoration: underline;
+    }
+#dia12 {
+  width: 475px;
+  height: 390px;
+  color: pink;
+  text-align: center;
+}
+    p .span12 {
+      display: block;
+      font-size: 2.5em;
+      line-height: 1em;
+    }
+#dia13 {
+  width: 450px;
+  height: 240px;
+  color: hotpink;
+  font-weight: 100;
+  font-size: 1.5em;
+  border: solid 1px hotpink;
+  border-radius: 50px;
+}
+    p .span13 {
+      font-size: 2em;
+      line-height: 1.1em;
+      font-weight: normal;
+      font-style: italic;
+    }
+#dia14 {
+  width: 450px;
+  height: 295px;
+  background-color: deepskyblue;
+  border-radius: 50px;
+}
+#dia15 {
+  width: 450px;
+  height: 295px;
+  border: solid 5px violet;
+  border-radius: 50px;
+}
+#dia16 {
+  width: 440px;
+  height: 475px;
+  font-style: italic;
+  font-size: 2em;
+  font-weight: 100;
+  background-color: deeppink;
+  border-radius: 50px;
+  color: white;
+}
+    p .span16 {
+      font-weight: 900;
+      font-style: normal;
+      text-decoration: underline;
+      letter-spacing: 0.05em;
+    }
+#dia17 {
+    display: none;
+    background-color: grey;
+}
+    #dia5 p, #dia6 p, #dia7 p, #dia8 p, #dia16 p {
+      margin-bottom: 5%;
+    }
+    #dia12 p {
+      margin-bottom: 2.5%;
+    }
+    #dia14 img, #dia15 img, #dia16 img {
+      margin-top: 7.5%;
+    }
+.impress-on-overview .step {
+    opacity: 1;
+    cursor: pointer;
+}
+.impress-enabled {
+    pointer-events: none;
+}
+.impress-enabled #impress {
+    pointer-events: auto;
+}
