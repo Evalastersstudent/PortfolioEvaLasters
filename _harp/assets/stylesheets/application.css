@@ -34,13 +34,12 @@ footer {
       margin: 1% auto;
       clear: both;
 }
-footer p {
-      color: white;
-      line-height: 0;
-}
 footer .Contact {
       width: 70%;
       margin: 0 auto;
+}
+footer .Contact #SocialMedia {
+      float: left;
 }
 footer .Contact #SocialMedia li, footer .Contact #SocialMedia li a {
       list-style: none;
@@ -51,6 +50,16 @@ footer .Contact #SocialMedia li a img {
       max-width: 100%;
       border-radius: 25%;
 }
+footer p {
+      color: white;
+      line-height: 0;
+}
+footer .Copyright {
+      color: white;
+      line-height: 0;
+      clear: both;
+}
+
 @media only screen and (max-width: 1280px) {
       h1 {
             font-size: 4em;
