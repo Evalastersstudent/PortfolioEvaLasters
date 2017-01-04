@@ -55,6 +55,9 @@ footer .Contact #SocialMedia li a img {
       max-width: 100%;
       border-radius: 25%;
 }
+footer .Contact #ContactForm {
+      float: right;
+}
 footer p {
       color: white;
       line-height: 0;
