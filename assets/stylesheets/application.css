@@ -38,6 +38,13 @@ footer p {
       color: white;
       line-height: 0;
 }
+#wrapper {
+      width: 70%;
+      margin: 0 auto;
+}
+#slider3 {
+      margin: 0 auto;
+}
 @media only screen and (max-width: 1280px) {
       h1 {
             font-size: 4em;
