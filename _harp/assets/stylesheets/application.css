@@ -37,7 +37,6 @@ footer {
 footer .Contact {
       width: 40%;
       margin: 0 auto;
-      border: black solid 5px;
       clear: both;
 }
 footer .Contact #SocialMedia {
@@ -57,7 +56,7 @@ footer .Contact #SocialMedia li a img {
       border-radius: 25%;
 }
 footer .Contact #ContactForm li {
-      margin-left: 0%;
+      left: 0%;
 }
 footer p {
       color: white;
