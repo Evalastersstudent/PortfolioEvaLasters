@@ -38,16 +38,19 @@ footer p {
       color: white;
       line-height: 0;
 }
-footer .Contact #SocialMedia {
+footer .Contact {
       width: 70%;
       margin: 0 auto;
 }
+footer .Contact #SocialMedia {
+      float: left;
+}
 footer .Contact #SocialMedia li, footer .Contact #SocialMedia li a {
       list-style: none;
-      display: inline;
+      display: block;
 }
 footer .Contact #SocialMedia li a img {
-      width: 10%;
+      width: 5%;
       max-width: 100%;
       border-radius: 25%;
 }
