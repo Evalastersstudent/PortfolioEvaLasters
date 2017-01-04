@@ -63,6 +63,7 @@ footer .Copyright {
       color: white;
       line-height: 0;
       clear: both;
+      font-size: 1.5em;
 }
 
 @media only screen and (max-width: 1280px) {
