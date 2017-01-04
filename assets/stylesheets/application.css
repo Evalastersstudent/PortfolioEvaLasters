@@ -42,6 +42,9 @@ footer p {
       width: 70%;
       margin: 0 auto;
 }
+footer .contact #SocialMedia li {
+      list-style: none;
+}
 @media only screen and (max-width: 1280px) {
       h1 {
             font-size: 4em;
