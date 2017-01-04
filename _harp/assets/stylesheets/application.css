@@ -48,15 +48,12 @@ footer .Contact li, footer .Contact li a {
       display: block;
       color: white;
       text-align: left;
-      line-height: 1.25em;
+      line-height: 1.5em;
 }
 footer .Contact #SocialMedia li a img {
       width: 50%;
       max-width: 100%;
       border-radius: 25%;
-}
-footer .Contact #ContactForm {
-      float: left;
 }
 footer p {
       color: white;
