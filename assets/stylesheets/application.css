@@ -38,12 +38,31 @@ footer p {
       color: white;
       line-height: 0;
 }
-#wrapper {
+#SocialMedia {
       width: 70%;
       margin: 0 auto;
 }
 #slider3 {
       margin: 0 auto;
+}
+#slider3-pager  {
+      padding-bottom: 0;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border: 0;
+}
+#slider3-pager a {
+      display: inline-block;
+}
+#slider3-pager img {
+      float: left;
+}
+#slider3-pager .rslides_here a {
+      background: transparent;
+      box-shadow: 0 0 0 2px #666;
+}
+#slider3-pager a {
+      padding: 0;
 }
 @media only screen and (max-width: 1280px) {
       h1 {
