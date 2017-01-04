@@ -79,6 +79,8 @@ footer .Copyright {
 }
 footer .Copyright a {
       color: white;
+      text-decoration: none;
+      font-weight: bold;
 }
 @media only screen and (max-width: 1280px) {
       h1 {
