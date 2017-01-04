@@ -42,7 +42,7 @@ footer p {
       width: 70%;
       margin: 0 auto;
 }
-footer .contact #SocialMedia li, footer .contact #SocialMedia li a {
+footer .Contact #SocialMedia li, footer .Contact #SocialMedia li a {
       list-style: none;
       display: inline;
 }
