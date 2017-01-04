@@ -44,6 +44,7 @@ footer .Contact {
 }
 footer .Contact #SocialMedia {
       float: left;
+      margin-right: 0%;
 }
 footer .Contact li, footer .Contact li a {
       list-style: none;
@@ -57,7 +58,6 @@ footer .Contact #SocialMedia li a img {
       width: 50%;
       max-width: 100%;
       border-radius: 25%;
-      margin-right: 0%;
 }
 footer .Contact #ContactForm li {
       margin-left: 0%;
