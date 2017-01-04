@@ -39,6 +39,7 @@ footer .KaderContact {
       background-color: rgba(0,0,0,0.75);
       margin: 2.5% auto;
       border-radius: 10px;
+      clear: both;
 }
 footer .Contact {
       width: 40%;
@@ -76,7 +77,6 @@ footer .Copyright {
       line-height: 0;
       clear: both;
 }
-
 @media only screen and (max-width: 1280px) {
       h1 {
             font-size: 4em;
