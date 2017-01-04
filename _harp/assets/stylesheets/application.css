@@ -38,6 +38,7 @@ footer .Contact {
       width: 50%;
       margin: 0 auto;
       border: black solid 5px;
+      clear: both;
 }
 footer .Contact #SocialMedia {
       float: left;
