@@ -34,11 +34,15 @@ footer {
       margin: 1% auto;
       clear: both;
 }
+footer .KaderContact {
+      width: 95%;
+      background-color: rgba(0,0,0,0.75);
+}
 footer .Contact {
-      width: 35%;
+      width: 40%;
       margin: 0 auto;
       clear: both;
-      background-color: rgba(0,0,0,0.75);
+      border: solid 1px rgba(0,0,0,0.01);
       padding: 0.5%;
       border-radius: 10px;
 }
