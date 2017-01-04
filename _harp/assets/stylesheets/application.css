@@ -42,9 +42,6 @@ footer .Contact {
       width: 70%;
       margin: 0 auto;
 }
-footer .Contact #SocialMedia {
-      float: left;
-}
 footer .Contact #SocialMedia li, footer .Contact #SocialMedia li a {
       list-style: none;
       display: block;
