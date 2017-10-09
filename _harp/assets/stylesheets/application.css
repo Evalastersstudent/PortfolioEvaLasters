@@ -61,7 +61,7 @@ nav ul li a {
   position: relative;
 }
 .hovergrijs2 a {
-  margin: 5% auto;
+  padding: 5% auto;
 }
 #fotonavigatie a {
   color: rgba(255,255,255,1);
