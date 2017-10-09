@@ -61,6 +61,11 @@ nav ul li a {
   position: relative;
   height: 100px;
 }
+.hovergrijs2 p {
+  background-color: rgba(0,0,0,0.25);
+  width: 100%;
+  height: 100%;
+}
 #fotonavigatie a {
   color: rgba(255,255,255,1);
   text-decoration: none;
