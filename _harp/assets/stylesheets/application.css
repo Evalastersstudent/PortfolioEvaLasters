@@ -60,6 +60,9 @@ nav ul li a {
   padding: 1%;
   position: relative;
 }
+.hovergrijs2 a p {
+  margin: 5% auto;
+}
 #fotonavigatie a {
   color: rgba(255,255,255,1);
   text-decoration: none;
