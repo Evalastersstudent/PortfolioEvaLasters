@@ -120,7 +120,7 @@ nav ul li a {
   background-size: cover;
 }
 
-#main404 p{
+#main404 p, #contactmain p {
   margin: 5% auto;
   font-size: 1.5em;
   line-height: 1.25em;
